@@ -2,6 +2,8 @@
 
 **⚠️ Temporary Fork Notice**: This repository is a temporary fork created to address a specific issue with PLC4X and Apache NiFi. It will be deprecated or deleted once Apache PLC4X officially releases version 0.13. Use this fork only if you require an immediate fix before the official release.
 
+Issue in plc4x: [link](https://github.com/apache/plc4x/issues/1984#issuecomment-2872679596)
+
 ---
 
 ## Overview

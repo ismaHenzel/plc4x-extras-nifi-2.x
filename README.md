@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository provides a fix for a compatibility issue between Apache PLC4X and Apache NiFi 2.x versions. The solution for NiFi has already been built as a .nar file containing the PLC4X fix. You can find the .nar file in the `/nifi_builded_nar` folder.
+This repository provides a fix for a compatibility issue between Apache PLC4X and Apache NiFi 2.x versions. The solution for NiFi has already been built as a .nar file containing the PLC4X fix. You can find the .nar file in the `/nifi_builded_nar` folder. (I encountered some issues when trying to use this NAR directly in a system that doesn't build with Docker Compose, so this precompiled .nar file may not work.)
 
 If you'd like to build it yourself or some error happens when  using `/nifi_builded_nar` , you can run docker-compose up, and the generated outputs will be placed in the `./out/.repository` folder. You can also build it using the mvnw tool, but I recommend using Docker. The Final nifi nar build, will be inside: `./out/.repository/org/apache/plc4x/plc4j-nifi-plc4x-nar/0.13.0-SNAPSHOT/plc4j-nifi-plc4x-nar-0.13.0-SNAPSHOT.nar`
 
@@ -25,3 +25,4 @@ If you'd like to build it yourself or some error happens when  using `/nifi_buil
 ## License
 
 This project, being a fork of Apache PLC4X, is distributed under the terms of the **Apache License, Version 2.0**.
+The licence topic is only to avoid apache rat error, but if occurs, delete this README.md
